@@ -1,1 +1,55 @@
-hello quizzers
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+
+  <main class="page">
+
+      <section class="hero">
+        <div class="hero-bg scene" id="scene" data-mode="cursor" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+          <img src="./img/api-home-bg.jpg" data-depth="0.3" alt="" class="layer layer1" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(-26.5819px, 6.1485px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+          <img src="./img/api-home-front.png" data-depth="0.1" alt="" class="layer layer2" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-8.86065px, 2.0495px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+        </div>
+        <div class="wrap-inner">
+          <div class="welcome layer">
+            
+            <h1>Quiz Nepal</h1>
+            <button class="btn btn-info btn-lg">Ready for Challenge?</button>
+            
+          </div>
+        </div>
+      </section>
+    
+  </main>
+
+  <div class="container">
+    <div class="row col-md-12">
+      <h3 class="pull-right col-md-5">Welcome to quiz nepal</h3>
+      <img src="img/yak_quiz.png" alt="" class="col-xs-12 col-md-6 col-md-offset-1">
+
+      <div class="texts col-xs-12 col-md-5">
+
+        <h4>mean while, all things are set up, try these pls</h4>
+        <ul>
+          <li><a href="https://github.com/quiznepal/" target="_blank">Check our open source projects/tests</a></li>
+          <li><a href="https://feed.quiznepal.com/" target="_blank">check things happening on quiz nepal, blog and more</a></li>
+          <li><a href="https://www.facebook.com/quizdaily.nepal/" target="_blank">facebook page</a></li>
+          <!-- <li>quick!!! solve a quiz/riddle :D </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>  
+
+  <script src="js/parallelx.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+    
+  </script>
+</body>
+</html>
